@@ -18,7 +18,8 @@ textarea {
     height: 150px;
 }
 
-#contacto, #inicio  {
+#contacto,
+#inicio {
     background-image: url('../CSS/Img/fondo-contacto.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,7 +138,7 @@ footer .fa-linkedin-in {
 
 }
 
-.cohete{
+.cohete {
     height: 450px;
 }
 
@@ -157,7 +158,7 @@ footer .fa-linkedin-in {
     margin: auto;
 }
 
-#inicio p{
+#inicio p {
     color: white;
     border: 1px solid white;
     border-radius: 25px;
@@ -167,5 +168,52 @@ footer .fa-linkedin-in {
 #inicio footer,
 footer a {
     color: white;
+    font-weight: 300;
+}
+
+#stack {
+    background: rgb(125, 7, 7);
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+}
+
+#stack .tecnologia {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#stack h2 {
+    color: white;
+    font-size: 24px;
+}
+
+#stack h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+
+.fa-js:before {
+    content: "\f3b8";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+#stack .tecnologia i {
+    font-size: 60px;
+    color: #6A6A6A;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+div {
+    display: block;
+}
+
+#sobre-mi footer,
+#sobre-mi footer a {
+    color: #E20000;
     font-weight: 300;
 }
